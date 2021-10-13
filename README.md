@@ -78,6 +78,8 @@ podendo escolher também a massa de dados que irá utilizar e juntamente aplicar
 
 ```
 mvn clean test -Dcucumber.options="--tags @dev" -Denv=des allure:report
+
+Digitar o comando acima dentro do intellij para abrir automático os dashboards de resultados
 ```
 
 ## TESTES CONTINUOS
